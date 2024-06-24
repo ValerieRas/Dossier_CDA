@@ -32,6 +32,7 @@
     - Un utilisateur peut créer un nouveau carnet pour organiser les notes.
     - Un utilisateur peut associer une note existante à un carnet.
     - Un utilisateur peut supprimer un carnet.
+
   
 ### **Amis-Utilisateurs**  
 
@@ -44,9 +45,9 @@
     - Un utilisateur peut envoyer une demande d'amitié à un autre utilisateur en spécifiant l'ID de cet utilisateur.
     - L'utilisateur cible peut accepter ou refuser la demande d'amitié.
     - Une fois acceptée, les utilisateurs peuvent partager des notes et des carnets entre eux.
-    - Un utilisateur peut supprimer une relation d'amitié existante à tout moment.
+    - Un utilisateur peut supprimer une relation d'amitié existante à tout moment.  
 
-
+    
 ### **Notes**
 
 - **ID**: Identifiant unique de la note
