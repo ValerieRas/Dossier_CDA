@@ -3,7 +3,7 @@
 
 ### **Entités**
 
-### **Utilisateurs (User)**
+### **Utilisateur**
 
 - **ID**: Identifiant unique de l'utilisateur (UUID)
 - **Pseudo**: Nom de l'utilisateur
@@ -36,10 +36,10 @@
   
 ### **Amis-Utilisateurs**  
 
-    - **ID**: Identifiant unique de la relation entre utilisateurs (UUID)
-    - **Utilisateur 1**: ID de l'utilisateur qui initie la relation d'amitié
-    - **Utilisateur 2**: ID de l'utilisateur avec qui la relation d'amitié est établie
-    - **Statut de la demande**: Indique si la demande d'amitié est en attente, acceptée ou refusée par l'utilisateur cible
+    - ID: Identifiant unique de la relation entre utilisateurs (UUID)
+    - Utilisateur 1: ID de l'utilisateur qui initie la relation d'amitié
+    - Utilisateur 2: ID de l'utilisateur avec qui la relation d'amitié est établie
+    - Statut de la demande: Indique si la demande d'amitié est en attente, acceptée ou refusée par l'utilisateur cible
   
 **Gestion des Amis-Utilisateurs**
     - Un utilisateur peut envoyer une demande d'amitié à un autre utilisateur en spécifiant l'ID de cet utilisateur.
@@ -70,7 +70,7 @@
 - La liste des notes peuvent être filrés selon les notes partagées ou non.
 - La liste des notes peuvent être filrés selon les notes archivés ou non.
 
-### **Carnets (Notebook)**
+### **Carnets**
 
 - **ID**: Identifiant unique du carnet
 - **Titre**: titre du carnet
@@ -87,7 +87,7 @@
 
 
 
-### **Administrateurs (Admin)**
+### **Administrateurs**
 
 - **ID**: Identifiant unique de l'administrateur (UUID)
 - **Nom**: Nom de l'administrateur
