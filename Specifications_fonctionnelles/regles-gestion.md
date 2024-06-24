@@ -14,13 +14,13 @@
 
 **Gestion des Utilisateurs**
 
-1. **Création de compte** : 
+- **Création de compte** : 
     - Un visiteur doit fournir une adresse email unique et un mot de passe pour créer un compte.
     - Un utilisateur doit avoir un pseudonyme.
     - Un utilisateur doit valider son email avec un code envoyé par email dans un délai de 24H.
-2. **Authentification** :
+- **Authentification** :
     - Un utilisateur doit fournir son email et son mot de passe pour se connecter.
-3. **Fonctionnalités utilisateur** : 
+- **Fonctionnalités utilisateur** : 
     - Un utilisateur peut mettre à jour son nom et son mot de passe.
     - Un utilisateur peut changer son email si il a été validé.
     - Un utilisater peut créer une note.
@@ -32,6 +32,20 @@
     - Un utilisateur peut créer un nouveau carnet pour organiser les notes.
     - Un utilisateur peut associer une note existante à un carnet.
     - Un utilisateur peut supprimer un carnet.
+  
+### **Amis-Utilisateurs**  
+
+    - **ID**: Identifiant unique de la relation entre utilisateurs (UUID)
+    - **Utilisateur 1**: ID de l'utilisateur qui initie la relation d'amitié
+    - **Utilisateur 2**: ID de l'utilisateur avec qui la relation d'amitié est établie
+    - **Statut de la demande**: Indique si la demande d'amitié est en attente, acceptée ou refusée par l'utilisateur cible
+  
+**Gestion des Amis-Utilisateurs**
+    - Un utilisateur peut envoyer une demande d'amitié à un autre utilisateur en spécifiant l'ID de cet utilisateur.
+    - L'utilisateur cible peut accepter ou refuser la demande d'amitié.
+    - Une fois acceptée, les utilisateurs peuvent partager des notes et des carnets entre eux.
+    - Un utilisateur peut supprimer une relation d'amitié existante à tout moment.
+
 
 ### **Notes**
 
@@ -45,11 +59,15 @@
 
 **Gestion des Notes**
 
-- Une note peut être modifiée et une nouvelle version de la note est créée pour historique.
+- Le contenu d'une note peut être modifiée.
 - L'utilisateur peut consulter et restaurer une version précédente de la note.
 - L’historique d’une note se limite aux trois dernières versions.
 - Une note peut être partagée entre plusieurs utilisateurs, en spécifiant les droits (lecture seule ou écriture).
 - L’archivage d’une note est possible et elle reste récupérable pendant un certain temps (par exemple, 30 jours).
+- La liste des notes peuvent être trié par ordre alphabétique.
+- La liste des notes peuvent être trié par date.
+- La liste des notes peuvent être filrés selon les notes partagées ou non.
+- La liste des notes peuvent être filrés selon les notes archivés ou non.
 
 ### **Carnets (Notebook)**
 
@@ -65,6 +83,9 @@
 - L'utilisateur peut ajouter des notes à un carnet existant.
 - Un carnet peut être supprimé, les notes qu’il contient vont être archivées.
 
+
+
+
 ### **Administrateurs (Admin)**
 
 - **ID**: Identifiant unique de l'administrateur (UUID)
@@ -78,7 +99,7 @@
 - **Authentification** : Un administrateur doit fournir son email et son mot de passe pour se connecter.
 - **Création de compte administrateur** : Un administrateur peut créer des comptes administrateurs.
 - **Gestion des utilisateurs** :
-    - Un administrateur peut modifier un compte.
     - Un administrateur peut suspendre un compte.
     - Un administrateur peut supprimer un compte.
 - **Surveillance et audit** : Un administrateur peut consulter les journaux d'activités des utilisateurs pour des raisons de sécurité et de conformité.
+
