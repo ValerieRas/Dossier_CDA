@@ -25,8 +25,9 @@ Ce tableau met en lumière les principales difficultés rencontrées, les probl�
 |                                        |                                                                             |                                                                                                                    |
 | Impossibilité de partager des notes    | Soucis de partager des notes de manière sécurisée et contrôlée.            | Permettre le partage des notes avec différents niveaux de permission (en lecture seule ou en écriture) avec d'autres utilisateurs. |
 
+## Solutions 
 
-## Interface intuitive
+### Interface intuitive
 
 Notre interface utilisateur a été conçue avec pour objectif principal la simplicité et l'accessibilité pour la prise de notes. En mettant l'accent sur une disposition claire et des fonctionnalités intuitives, nous avons veillé à ce que les utilisateurs puissent rapidement capturer leurs idées sans rencontrer de barrières techniques.
 
@@ -34,7 +35,7 @@ Chaque élément de l'interface a été pensé pour minimiser les distractions e
 
 En somme, notre interface utilisateur offre une expérience sans friction, permettant aux utilisateurs de se concentrer pleinement sur leurs idées et leur créativité. En éliminant les obstacles techniques, nous facilitons une prise de notes rapide et efficace, essentielle pour une productivité optimale.
 
-## Différer les étapes
+### Différer les étapes
 
 
 Lors de la prise de notes, il est souvent crucial de reconnaître que l'utilisateur peut manquer de temps pour compléter toutes les interactions nécessaires à l'enregistrement complet de son mémo. Pour répondre efficacement à cette réalité, il est essentiel de prioriser l'enregistrement du contenu comme première étape du processus. Que l'on peut détailler en quelques point clé:
@@ -48,7 +49,7 @@ Lors de la prise de notes, il est souvent crucial de reconnaître que l'utilisat
 En adoptant une approche modulaire et flexible pour l'enregistrement des notes, on respecte non seulement les contraintes de temps des utilisateurs mais on améliore également la qualité et l'utilité des notes prises. Cette stratégie permet d'assurer que l'information essentielle est capturée immédiatement, tout en offrant l'opportunité d'enrichir et de préciser les détails plus tard, à un moment plus opportun.
 
 
-## Historique des versions de note
+### Historique des versions de note
 
 Pour assurer un historique des versions de note fiable et accessible dans Keep This, chaque fois qu'un utilisateur modifie une note, le système enregistre automatiquement la version précédente. On garde en mémoire les trois dernières versions de la note. 
 
@@ -58,7 +59,7 @@ L'interface utilisateur sera conçue de manière à rendre cette fonctionnalité
 
 
 
-## Rangement des notes dans des carnets
+### Rangement des notes dans des carnets
 
 En ce qui concerne le rangement des notes dans des carnets, Keep This offrira aux utilisateurs la possibilité de créer des carnets thématiques ou projet spécifiques.  
 
@@ -69,7 +70,7 @@ Les utilisateurs pourront déplacer facilement leurs notes entre les carnets, le
 Cette fonctionnalité sera intégrée de manière intuitive dans l'interface utilisateur, assurant une expérience de gestion des notes fluide et personnalisée.
 
 
-## Partage des notes
+### Partage des notes
 
 Pour ce qui est du partage des notes, Keep This permettra aux utilisateurs de partager leurs notes avec d'autres utilisateurs de manière sécurisée et contrôlée.
 
