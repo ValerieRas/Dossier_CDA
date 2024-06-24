@@ -11,7 +11,7 @@ Ce dossier de projet a pour objectif de démontrer la maîtrise des compétences
 3. [Cahier des charges](Cahier_des_charges/README.md)
 5. [Gestion de projet](Gestion_du_projet/README.md)
 6. [Spécifications fonctionnelles](Specifications_fonctionnelles/README.md)
-7. [Spécifications techniques](specifications_techniques/README.md)
+7. [Spécifications techniques](Specifications_techniques/README.md)
 8. [Réalisations](realisations/README.md)
 9. [Présentation du jeu d’essai](presentation/README.md)
 10. [Veille](Veille/Veille.md)
