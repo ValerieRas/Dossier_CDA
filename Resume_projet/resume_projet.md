@@ -12,4 +12,4 @@ This version control feature provides a safety net for your notes, allowing you 
 
 Additionally, you can organize your notes into different notebooks, making it simple to find what you need. 
 This organization feature helps you categorize your notes in a way that makes sense to you, whether by project, topic, or any other method you prefer. 
-Keep This is a handy tool that combines easy note-taking with useful sharing and organizing features, making it perfect for both personal and professional use.
+**Keep This** is a handy tool that combines easy note-taking with useful sharing and organizing features, making it perfect for both personal and professional use.
