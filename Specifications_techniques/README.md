@@ -30,10 +30,10 @@
 
 ### mobile
 
-- [Stratégie de sécurisation mobile](./securisation-front.md)
-- [Choix stack mobile](choix-stack-front.md)
-- [Wireframes](./wireframes.md)
-- [Mockups](./mockups.md)
+- [Stratégie de sécurisation mobile](./securisation-mobile.md)
+- [Choix stack mobile](choix-stack-mobile.md)
+- [Wireframes](./wireframes-mobile.md)
+- [Mockups](./mockups-mobile.md)
 
 
 
