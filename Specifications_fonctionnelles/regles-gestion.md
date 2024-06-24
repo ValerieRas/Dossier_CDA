@@ -1,4 +1,4 @@
-# Business Rules
+# Règles de gestion
 
 
 ### **Entités**
