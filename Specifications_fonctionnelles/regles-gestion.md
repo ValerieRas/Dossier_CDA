@@ -34,12 +34,12 @@
     - Un utilisateur peut supprimer un carnet.
 
   
-### **Amis-Utilisateurs**  
+### **Amis-Utilisateurs**
 
-    - ID: Identifiant unique de la relation entre utilisateurs (UUID)
-    - Utilisateur 1: ID de l'utilisateur qui initie la relation d'amitié
-    - Utilisateur 2: ID de l'utilisateur avec qui la relation d'amitié est établie
-    - Statut de la demande: Indique si la demande d'amitié est en attente, acceptée ou refusée par l'utilisateur cible
+    - **ID**: Identifiant unique de la relation entre utilisateurs (UUID)
+    - **Utilisateur 1**: ID de l'utilisateur qui initie la relation d'amitié
+    - **Utilisateur 2**: ID de l'utilisateur avec qui la relation d'amitié est établie
+    - **Statut de la demande**: Indique si la demande d'amitié est en attente, acceptée ou refusée par l'utilisateur cible
   
 **Gestion des Amis-Utilisateurs**
     - Un utilisateur peut envoyer une demande d'amitié à un autre utilisateur en spécifiant l'ID de cet utilisateur.
