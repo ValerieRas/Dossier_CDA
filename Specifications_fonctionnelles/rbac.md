@@ -14,18 +14,18 @@ Nous avons besoin d'un RBAC dans notre application pour plusieurs raisons essent
 
 
 
-| Actions                                      | Registered User | Visitor |
-|:--------------------------------------------:|:---------------:|:-------:|
-| Sign In                                      | ✅              | ❌      |
-| Sign Up                                      | ✅              | ✅      |
-| Manage Account (password reset, etc.)        | ✅              | ✅      |
-| View Post-it                                 | ✅              | ❌      |
-| Create Post-it                               | ✅              | ❌      |
-| Edit Post-it                                 | ✅              | ❌      |
-| Archive Post-it                              | ✅              | ❌      |
-| Filter/Sort Post-it                          | ✅              | ❌      |
-| Create Notebook                              | ✅              | ❌      |
-| Edit Notebook                                | ✅              | ❌      |
-| Archive Notebook                             | ✅              | ❌      |
-| Restore Archived Post-it/Notebook            | ✅              | ❌      |
+| Actions                                      | Registered User | Visitor | Administrator | 
+|:--------------------------------------------:|:---------------:|:-------:|:-------:|
+| Sign In                                      | ✅              | ❌      ||
+| Sign Up                                      | ✅              | ✅      ||
+| Manage Account (password reset, etc.)        | ✅              | ✅      ||
+| View Post-it                                 | ✅              | ❌      ||
+| Create Post-it                               | ✅              | ❌      ||
+| Edit Post-it                                 | ✅              | ❌      ||
+| Archive Post-it                              | ✅              | ❌      ||
+| Filter/Sort Post-it                          | ✅              | ❌      ||
+| Create Notebook                              | ✅              | ❌      ||
+| Edit Notebook                                | ✅              | ❌      ||
+| Archive Notebook                             | ✅              | ❌      ||
+| Restore Archived Post-it/Notebook            | ✅              | ❌      ||
 
