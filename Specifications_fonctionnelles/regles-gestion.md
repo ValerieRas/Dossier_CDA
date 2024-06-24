@@ -40,11 +40,12 @@
 - Utilisateur 2: ID de l'utilisateur avec qui la relation d'amitié est établie
 - Statut de la demande: Indique si la demande d'amitié est en attente, acceptée ou refusée par l'utilisateur cible
 
-**Gestion des Amis-Utilisateurs**
-    - Un utilisateur peut envoyer une demande d'amitié à un autre utilisateur en spécifiant l'ID de cet utilisateur.
-    - L'utilisateur cible peut accepter ou refuser la demande d'amitié.
-    - Une fois acceptée, les utilisateurs peuvent partager des notes et des carnets entre eux.
-    - Un utilisateur peut supprimer une relation d'amitié existante à tout moment.
+**Gestion des Amis-Utilisateurs**  
+
+    - Un utilisateur peut envoyer une demande d'amitié à un autre utilisateur en spécifiant l'ID de cet utilisateur.  
+    - L'utilisateur cible peut accepter ou refuser la demande d'amitié.  
+    - Une fois acceptée, les utilisateurs peuvent partager des notes et des carnets entre eux.  
+    - Un utilisateur peut supprimer une relation d'amitié existante à tout moment.  
     
 ### **Notes**
 
