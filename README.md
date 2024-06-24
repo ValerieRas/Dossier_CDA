@@ -13,7 +13,7 @@ Ce dossier de projet a pour objectif de démontrer la maîtrise des compétences
 6. [Spécifications fonctionnelles](Specifications_fonctionnelles/README.md)
 7. [Spécifications techniques](Specifications_techniques/README.md)
 8. [Réalisations](realisations/README.md)
-9. [Présentation du jeu d’essai](presentation/README.md)
+9. [Présentation du jeu d’essai](Presentation/README.md)
 10. [Veille](Veille/Veille.md)
 11. [Et si c'était à refaire?](Retrospective/retrospective.md)
 
