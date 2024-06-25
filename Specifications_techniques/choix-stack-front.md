@@ -1,7 +1,7 @@
 # Proposition technique pour le Front-End
 
 
-## **Pourquoi TypeScript React pour le Front? **
+## Pourquoi TypeScript React pour le Front?
 
 - **Développement d'interface utilisateur performant et évolutif:** React est une bibliothèque JavaScript performante et évolutive pour la création d'interfaces utilisateur modernes et réactives.
 - **TypeScript pour un code JavaScript plus robuste et maintenable:** TypeScript ajoute un typage statique à JavaScript, ce qui facilite la détection des erreurs de développement, améliore la lisibilité du code et renforce sa maintenabilité à long terme.
