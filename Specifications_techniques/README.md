@@ -1,7 +1,7 @@
 # Spécifications techniques
 
 ## Back-end
-
+- Questions globales
 
 ### Base de donnée
 - [RGPD](./rgpd.md)
