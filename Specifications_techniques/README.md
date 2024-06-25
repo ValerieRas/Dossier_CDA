@@ -10,6 +10,8 @@ Les avantages d'une architecture N-tier sont nombreux.
 - Chaque couche peut être développée, testée et déployée de manière indépendante, facilitant ainsi les mises à jour et les modifications sans perturber l'ensemble du système.
 - Cette architecture favorise une meilleure sécurité en limitant l'accès direct aux données sensibles et en contrôlant les permissions à travers différentes couches, renforçant ainsi la protection des informations critiques.
 
+
+  
 ### Caractéristiques clés de conception de l'application
 
 Ce tableau résume les principales décisions de conception prises pour notre application, en mettant en lumière divers aspects techniques et stratégiques.  
