@@ -11,3 +11,6 @@ Les principaux cas d'utilisation incluent la création, la modification, et l'or
 Ce document est essentiel pour assurer que toutes les fonctionnalités de **Keep This** sont bien comprises et correctement implémentées, offrant ainsi une expérience utilisateur fluide et efficace.
 
 ## Diagramme
+
+
+![cas utilisation](../Assets/cas-utilisation.jpg)
