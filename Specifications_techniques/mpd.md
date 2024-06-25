@@ -5,6 +5,8 @@
 Un Modèle Physique de Données (MPD) est une représentation détaillée des données dans une base de données, prenant en compte les contraintes techniques et les caractéristiques spécifiques du système de gestion de base de données (SGBD) utilisé.  
 Il inclut les tables, les colonnes, les types de données, les index, et les contraintes de clé primaire et étrangère. 
 
+Pour **Keep This**, le MPD détaillera la création des tables Users, Notes, Notebooks, Friends-Users, Status, et NoteSharing, en spécifiant les types de données exacts (par exemple, VARCHAR, TEXT, DATETIME) et les contraintes d'intégrité (comme les clés primaires et étrangères, les contraintes de non-nullité, et les contraintes uniques). 
+
 ## Script de la BDD
 
 ```sql
