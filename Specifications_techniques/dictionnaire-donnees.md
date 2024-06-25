@@ -4,16 +4,19 @@
 | Entity          | Attribute         | Type     | Description                                                     | Example                               |
 |-----------------|-------------------|----------|-----------------------------------------------------------------|---------------------------------------|
 | Users           | ID                | UUID     | Unique identifier for the user                                   | 123e4567-e89b-12d3-a456-426614174000  |
-|                 | Pseudo            | String   | User's display name                                             | "johndoe123"                          |
-|                 | Email             | String   | User's email address                                            | "johndoe@example.com"                 |
+|                 | userName          | String   | User's display name                                             | "johndoe123"                          |
+|                 | tempMail          | String   | User's email address that is not verified                       | "johndoe@example.com"                 |
+|                 | certifiedEmail    | String   | User's email address that is certified                          | "johndoe@example.com"                 |
 |                 | Password          | String   | User's hashed password                                          | "hashedPassword123"                   |
 |                 | CreatedAt         | DateTime | Date and time when the user account was created                  | "2024-06-25 14:30:00"                 |
+|                 | isActive          |Bool      | boolean that tells if the user's account is active or not       | "2024-06-25 14:30:00"                 |
 | Notes           | ID                | UUID     | Unique identifier for the note                                   | 123e4567-e89b-12d3-a456-426614174001  |
-|                 | Content           | Text     | Text content of the note                                         | "Meeting notes..."                    |
-|                 | CreatedAt         | DateTime | Date and time when the note was created                          | "2024-06-25 15:00:00"                 |
-|                 | ModifiedAt        | DateTime | Date and time when the note was last modified                    | "2024-06-25 15:30:00"                 |
-|                 | ArchivedAt        | DateTime | Date and time when the note was archived                         | "2024-06-26 10:00:00"                 |
+|                 | content           | Text     | Text content of the note                                         | "Meeting notes..."                    |
+|                 | createdAt         | DateTime | Date and time when the note was created                          | "2024-06-25 15:00:00"                 |
+|                 | updatedAt        | DateTime | Date and time when the note was last modified                    | "2024-06-25 15:30:00"                 |
+|                 | archivedAt        | DateTime | Date and time when the note was archived                         | "2024-06-26 10:00:00"                 |
 |                 | OwnerID           | UUID     | ID of the user who owns the note                                 | 123e4567-e89b-12d3-a456-426614174000  |
+|                 | isShared          |Bool      | boolean that tells if the user's account is active or not       | 0 or 1                                 |
 | Notebooks       | ID                | UUID     | Unique identifier for the notebook                               | 123e4567-e89b-12d3-a456-426614174002  |
 |                 | Title             | String   | Title of the notebook                                            | "Work Projects"                       |
 |                 | CreatedAt         | DateTime | Date and time when the notebook was created                      | "2024-06-25 16:00:00"                 |
