@@ -1,7 +1,9 @@
 # Spécifications techniques
 
-## Back-end
+- Découpage de l'application en couche N-tiers.
 - Questions globales
+  
+## Back-end
 
 ### Base de donnée
 - [RGPD](./rgpd.md)
