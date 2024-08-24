@@ -14,18 +14,39 @@ Nous avons besoin d'un RBAC dans notre application pour plusieurs raisons essent
 
 
 
-| Actions                                      | Registered User | Visitor | Administrator | 
-|:--------------------------------------------:|:---------------:|:-------:|:-------:|
-| Sign In                                      | ✅              | ❌      ||
-| Sign Up                                      | ✅              | ✅      ||
-| Manage Account (password reset, etc.)        | ✅              | ✅      ||
-| View Post-it                                 | ✅              | ❌      ||
-| Create Post-it                               | ✅              | ❌      ||
-| Edit Post-it                                 | ✅              | ❌      ||
-| Archive Post-it                              | ✅              | ❌      ||
-| Filter/Sort Post-it                          | ✅              | ❌      ||
-| Create Notebook                              | ✅              | ❌      ||
-| Edit Notebook                                | ✅              | ❌      ||
-| Archive Notebook                             | ✅              | ❌      ||
-| Restore Archived Post-it/Notebook            | ✅              | ❌      ||
+# RBAC - Role-Based Access Control
 
+| Role/Permission                           | Visitor | User | Admin  |
+|-------------------------------------------|---------|------|--------|
+| **Account Management**                    |         |      |        |
+| Create account                            | ✅      | ❌   | ✅    |
+| Authenticate                              | ❌      | ✅   | ✅    |
+| Update username                           | ❌      | ✅   | ✅    |
+| Update password                           | ❌      | ✅   | ✅    |
+| Change email (if validated)               | ❌      | ✅   | ✅    |
+| Validate email (with code)                | ❌      | ✅   | ✅    |
+| Suspend account                           | ❌      | ❌   | ✅    |
+| Delete account                            | ❌      | ❌   | ✅    |
+| **Note Management**                       |         |      |        |
+| Create note                               | ❌      | ✅   | ✅    |
+| Edit note                                 | ❌      | ✅   | ✅    |
+| Edit shared note (with write permissions) | ❌      | ✅   | ✅    |
+| View/restore previous note versions       | ❌      | ✅   | ✅    |
+| Archive note                              | ❌      | ✅   | ✅    |
+| Retrieve archived note                    | ❌      | ✅   | ✅    |
+| Share note with friends (read-only/edit)  | ❌      | ✅   | ✅    |
+| Sort notes alphabetically                 | ❌      | ✅   | ✅    |
+| Sort notes by date                        | ❌      | ✅   | ✅    |
+| Filter shared notes                       | ❌      | ✅   | ✅    |
+| Filter archived notes                     | ❌      | ✅   | ✅    |
+| **Notebook Management**                   |         |      |        |
+| Create notebook                           | ❌      | ✅   | ✅    |
+| Add notes to notebook                     | ❌      | ✅   | ✅    |
+| Delete notebook (archive contained notes) | ❌      | ✅   | ✅    |
+| **Friend Management**                     |         |      |        |
+| Send friend request                       | ❌      | ✅   | ✅    |
+| Accept/decline friend request             | ❌      | ✅   | ✅    |
+| Remove friend                             | ❌      | ✅   | ✅    |
+| **Admin Management**                      |         |      |        |
+| Create admin account                      | ❌      | ❌   | ✅    |
+| View activity logs                        | ❌      | ❌   | ✅    |
