@@ -16,7 +16,6 @@
 |                 | updatedAt        | DateTime | Date and time when the note was last modified                    | "2024-06-25 15:30:00"                 |
 |                 | archivedAt        | DateTime | Date and time when the note was archived                         | "2024-06-26 10:00:00"                 |
 |                 | OwnerID           | UUID     | ID of the user who owns the note                                 | 123e4567-e89b-12d3-a456-426614174000  |
-|                 | isShared          |Bool      | boolean that tells if the user's account is active or not       | 0 or 1                                 |
 | Notebooks       | ID                | UUID     | Unique identifier for the notebook                               | 123e4567-e89b-12d3-a456-426614174002  |
 |                 | Title             | String   | Title of the notebook                                            | "Work Projects"                       |
 |                 | CreatedAt         | DateTime | Date and time when the notebook was created                      | "2024-06-25 16:00:00"                 |
